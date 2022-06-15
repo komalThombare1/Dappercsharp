@@ -1433,6 +1433,7 @@ namespace PetaPoco
                 if (Is(lhs, "WHERE ") && Is(this, "WHERE "))
                     sql = "AND " + sql.Substring(6);
                 if (Is(lhs, "ORDER BY ") && Is(this, "ORDER BY "))
+					
                     sql = ", " + sql.Substring(9);
 
                 sb.Append(sql);
