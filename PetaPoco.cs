@@ -1442,6 +1442,8 @@ namespace PetaPoco
             // Now do rhs
             _rhs?.Build(sb, args, this);
         }
+		
+		
     }
 }
 #pragma warning restore RCS1023 // Format empty block.
